@@ -1,0 +1,1247 @@
+[
+  {
+    "id": 31,
+    "chapter": 4,
+    "name": "Shortcut",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 1,
+    "objectives": [
+      "clearShards",
+      "usePortals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 6,
+          "column": 3
+        },
+        "pair": "pair",
+        "turns": -1
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 3,
+          "column": 4
+        },
+        "pair": "pair",
+        "turns": 0
+      },
+      {
+        "id": "wall-6-4",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 4
+        }
+      },
+      {
+        "id": "wall-5-4",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 4
+        }
+      }
+    ],
+    "solutionMoves": [
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A single unmistakable portal trip.",
+    "tutorialMessage": "Paired portals carry your pulse across the board."
+  },
+  {
+    "id": 32,
+    "chapter": 4,
+    "name": "Exit Traffic",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 4,
+    "objectives": [
+      "clearShards",
+      "usePortals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "pair": "pair",
+        "turns": 1
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 3,
+          "column": 3
+        },
+        "pair": "pair",
+        "turns": 0
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 5
+        },
+        "direction": "down"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 7,
+          "column": 5
+        },
+        "turns": 1
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "direction": "up"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 2
+        },
+        "direction": "right"
+      },
+      {
+        "id": "wall-4-1",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-8-5",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 5
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Read the exit of the portal before its entrance."
+  },
+  {
+    "id": 33,
+    "chapter": 4,
+    "name": "Wake Up",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 2,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 5,
+          "column": 3
+        }
+      },
+      {
+        "id": "sleep",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 5
+        },
+        "direction": "up"
+      }
+    ],
+    "solutionMoves": [
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Clear the sleepy pulse\u2019s escape before waking it.",
+    "tutorialMessage": "Energy wakes sleeping pulses and launches them."
+  },
+  {
+    "id": 34,
+    "chapter": 4,
+    "name": "Long Distance Call",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 4,
+    "objectives": [
+      "clearShards",
+      "usePortals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "pair": "pair",
+        "turns": 1
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "pair": "pair",
+        "turns": 0
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 4,
+          "column": 5
+        }
+      },
+      {
+        "id": "sleep",
+        "kind": "dormant",
+        "position": {
+          "row": 1,
+          "column": 5
+        },
+        "direction": "left"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 2
+        },
+        "direction": "down"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "turns": -1
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "wall-3-1",
+        "kind": "wall",
+        "position": {
+          "row": 3,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-8-2",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 2
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "An exit-side core reaches a sleeper behind the original route."
+  },
+  {
+    "id": 35,
+    "chapter": 4,
+    "name": "Wake in Order",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 5,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 5,
+          "column": 3
+        }
+      },
+      {
+        "id": "top",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "bottom",
+        "kind": "dormant",
+        "position": {
+          "row": 8,
+          "column": 3
+        },
+        "direction": "left"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 5
+        },
+        "direction": "down"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 6,
+          "column": 5
+        }
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 4,
+          "column": 1
+        },
+        "durability": 1
+      },
+      {
+        "id": "wall-6-0",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 0
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Unlock the upper sleeper\u2019s path and clear the lower crossing before the payoff.",
+    "maxMoves": 8
+  },
+  {
+    "id": 36,
+    "chapter": 4,
+    "name": "Two Worlds",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 6,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "usePortals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 6,
+          "column": 1
+        },
+        "pair": "pair",
+        "turns": 1
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 3,
+          "column": 4
+        },
+        "pair": "pair",
+        "turns": 0
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 6
+        },
+        "direction": "down"
+      },
+      {
+        "id": "R",
+        "kind": "portal",
+        "position": {
+          "row": 7,
+          "column": 6
+        },
+        "pair": "pair2",
+        "turns": 1
+      },
+      {
+        "id": "T",
+        "kind": "portal",
+        "position": {
+          "row": 8,
+          "column": 4
+        },
+        "pair": "pair2",
+        "turns": 0
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 2
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 2,
+          "column": 2
+        },
+        "turns": 1
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 1,
+          "column": 5
+        },
+        "durability": 2
+      },
+      {
+        "id": "wall-5-1",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-8-6",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 6
+        }
+      },
+      {
+        "id": "wall-1-2",
+        "kind": "wall",
+        "position": {
+          "row": 1,
+          "column": 2
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "d",
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Two portal pairs weave a return path through reinforced glass.",
+    "maxMoves": 9
+  },
+  {
+    "id": 37,
+    "chapter": 4,
+    "name": "Sleeping Giant",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 6,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 5,
+          "column": 3
+        }
+      },
+      {
+        "id": "sleep",
+        "kind": "dormant",
+        "position": {
+          "row": 1,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 3,
+          "column": 5
+        }
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 6,
+          "column": 1
+        },
+        "turns": 1
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 6,
+          "column": 3
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 5,
+          "column": 6
+        },
+        "durability": 1
+      },
+      {
+        "id": "wall-4-1",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 1
+        }
+      }
+    ],
+    "solutionMoves": [
+      "f",
+      "c",
+      "b",
+      "d",
+      "c",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "The obvious core launch is premature: the sleeper is shielded by a locked piece."
+  },
+  {
+    "id": 38,
+    "chapter": 4,
+    "name": "Phase Carousel",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 7,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "usePortals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 6,
+          "column": 1
+        },
+        "pair": "pair",
+        "turns": 1
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "pair": "pair",
+        "turns": 0
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 4,
+          "column": 5
+        }
+      },
+      {
+        "id": "sleep",
+        "kind": "dormant",
+        "position": {
+          "row": 1,
+          "column": 5
+        },
+        "direction": "left"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 2
+        },
+        "direction": "down"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "turns": -1
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 3,
+          "column": 6
+        },
+        "durability": 2
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 4
+        },
+        "direction": "right"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 7
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-5-1",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-8-2",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-6-4",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 4
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "c",
+      "b",
+      "d",
+      "f",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A cross-fire crystal protects the remote sleeping route.",
+    "maxMoves": 11
+  },
+  {
+    "id": 39,
+    "chapter": 4,
+    "name": "Quiet Before",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 5,
+    "objectives": [
+      "clearShards",
+      "usePortals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "top",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "bottom",
+        "kind": "dormant",
+        "position": {
+          "row": 9,
+          "column": 3
+        },
+        "direction": "left"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 4,
+          "column": 6
+        }
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "pair": "pair",
+        "turns": 1
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 7,
+          "column": 4
+        },
+        "pair": "pair",
+        "turns": 0
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 7,
+          "column": 5
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 8,
+          "column": 6
+        },
+        "turns": 1
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-4-1",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-10-0",
+        "kind": "wall",
+        "position": {
+          "row": 10,
+          "column": 0
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "f",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Portal key, shield removal, then a two-wing wake-up.",
+    "maxMoves": 9
+  },
+  {
+    "id": 40,
+    "chapter": 4,
+    "name": "Across the Universe",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 9,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "usePortals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "north",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 2,
+          "column": 5
+        },
+        "pair": "p",
+        "turns": 1
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 3,
+          "column": 6
+        },
+        "pair": "p",
+        "turns": 0
+      },
+      {
+        "id": "south",
+        "kind": "dormant",
+        "position": {
+          "row": 9,
+          "column": 3
+        },
+        "direction": "left"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 4,
+          "column": 6
+        }
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "turns": 1
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 5,
+          "column": 4
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 7
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 1,
+          "column": 7
+        },
+        "durability": 2
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 7
+        },
+        "direction": "left"
+      },
+      {
+        "id": "h",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 5
+        },
+        "direction": "down"
+      },
+      {
+        "id": "wall-4-1",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-10-0",
+        "kind": "wall",
+        "position": {
+          "row": 10,
+          "column": 0
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "d",
+      "d",
+      "c",
+      "b",
+      "h",
+      "g",
+      "f",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A chapter finale with a portal sleeper, two shielded lanes and a prepared double clear.",
+    "maxMoves": 13
+  }
+]

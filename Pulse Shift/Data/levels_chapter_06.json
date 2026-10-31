@@ -1,0 +1,1967 @@
+[
+  {
+    "id": 51,
+    "chapter": 6,
+    "name": "Ignition",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 3,
+    "objectives": [
+      "clearShards",
+      "activateReactors"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "R",
+        "kind": "reactor",
+        "position": {
+          "row": 3,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "left",
+        "kind": "dormant",
+        "position": {
+          "row": 3,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "right",
+        "kind": "dormant",
+        "position": {
+          "row": 3,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 5
+        },
+        "direction": "left"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 7,
+          "column": 1
+        },
+        "turns": -1
+      }
+    ],
+    "solutionMoves": [
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "One directional reactor tutorial embedded in an ordering puzzle.",
+    "tutorialMessage": "Reactors send energy along their marked arms."
+  },
+  {
+    "id": 52,
+    "chapter": 6,
+    "name": "Prepare the Party",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 7,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "activateReactors"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "R",
+        "kind": "reactor",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "left",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "right",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 4,
+          "column": 6
+        }
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 9,
+          "column": 2
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 4,
+          "column": 1
+        },
+        "durability": 2
+      },
+      {
+        "id": "exit",
+        "kind": "redirector",
+        "position": {
+          "row": 3,
+          "column": 1
+        },
+        "turns": -1
+      }
+    ],
+    "solutionMoves": [
+      "f",
+      "f",
+      "f",
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Clear two celebration routes, unlock the shield, then send a branching burst.",
+    "maxMoves": 11
+  },
+  {
+    "id": 53,
+    "chapter": 6,
+    "name": "A Remote Spark",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 7,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "activateReactors",
+      "usePortals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 6,
+          "column": 1
+        },
+        "pair": "p",
+        "turns": 1
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 5,
+          "column": 3
+        },
+        "pair": "p",
+        "turns": 0
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 5,
+          "column": 5
+        }
+      },
+      {
+        "id": "R",
+        "kind": "reactor",
+        "position": {
+          "row": 2,
+          "column": 5
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "left",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 2
+        },
+        "direction": "up"
+      },
+      {
+        "id": "right",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 7
+        },
+        "direction": "up"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "direction": "right"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 7
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 4,
+          "column": 7
+        },
+        "durability": 2
+      },
+      {
+        "id": "exit",
+        "kind": "redirector",
+        "position": {
+          "row": 3,
+          "column": 7
+        },
+        "turns": 1
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 4
+        },
+        "direction": "right"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-5-1",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-8-2",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 2
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "c",
+      "b",
+      "d",
+      "f",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A remote reactor rewards clearing an intersecting reinforced route.",
+    "maxMoves": 11
+  },
+  {
+    "id": 54,
+    "chapter": 6,
+    "name": "Over and Under",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 8,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "activateReactors"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "R",
+        "kind": "reactor",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "left",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "right",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "direction": "up",
+        "polarity": "positive"
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 4,
+          "column": 7
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 10,
+          "column": 6
+        },
+        "links": [
+          "M"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 4
+        },
+        "direction": "down"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 8,
+          "column": 4
+        }
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 9,
+          "column": 2
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 5,
+          "column": 6
+        },
+        "durability": 1
+      },
+      {
+        "id": "exit",
+        "kind": "redirector",
+        "position": {
+          "row": 3,
+          "column": 6
+        },
+        "turns": 1
+      },
+      {
+        "id": "wall-0-3",
+        "kind": "wall",
+        "position": {
+          "row": 0,
+          "column": 3
+        }
+      }
+    ],
+    "solutionMoves": [
+      "g",
+      "g",
+      "f",
+      "d",
+      "c",
+      "F",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Move a magnetic shield after unlocking its landing space and both reactor exits.",
+    "maxMoves": 12
+  },
+  {
+    "id": 55,
+    "chapter": 6,
+    "name": "Counter Current",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 8,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "activateReactors"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "R",
+        "kind": "reactor",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "left",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "right",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 4,
+          "column": 6
+        }
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 9,
+          "column": 2
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": false
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 10,
+          "column": 2
+        },
+        "direction": "up"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "durability": 2
+      },
+      {
+        "id": "exit",
+        "kind": "redirector",
+        "position": {
+          "row": 3,
+          "column": 1
+        },
+        "turns": -1
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 8,
+          "column": 6
+        },
+        "pair": "p",
+        "turns": 1
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 8,
+          "column": 3
+        },
+        "pair": "p",
+        "turns": 0
+      }
+    ],
+    "solutionMoves": [
+      "g",
+      "g",
+      "g",
+      "f",
+      "c",
+      "b",
+      "a",
+      "d"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A toggle window and a return portal demand careful sequencing before the burst.",
+    "maxMoves": 12
+  },
+  {
+    "id": 56,
+    "chapter": 6,
+    "name": "Starlight Engine",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 8,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "activateReactors"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "R",
+        "kind": "reactor",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "T",
+        "kind": "reactor",
+        "position": {
+          "row": 9,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "nw",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "ne",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "sw",
+        "kind": "dormant",
+        "position": {
+          "row": 9,
+          "column": 1
+        },
+        "direction": "down"
+      },
+      {
+        "id": "se",
+        "kind": "dormant",
+        "position": {
+          "row": 9,
+          "column": 6
+        },
+        "direction": "down"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 4,
+          "column": 6
+        }
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 5,
+          "column": 6
+        },
+        "durability": 2
+      },
+      {
+        "id": "exit",
+        "kind": "redirector",
+        "position": {
+          "row": 3,
+          "column": 6
+        },
+        "turns": 1
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "turns": -1
+      },
+      {
+        "id": "wall-10-0",
+        "kind": "wall",
+        "position": {
+          "row": 10,
+          "column": 0
+        }
+      }
+    ],
+    "solutionMoves": [
+      "g",
+      "f",
+      "d",
+      "d",
+      "c",
+      "b",
+      "d",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Two reactors send four sleepers into a star-shaped finale after a glass-and-lock setup.",
+    "maxMoves": 12
+  },
+  {
+    "id": 57,
+    "chapter": 6,
+    "name": "Prism Express",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 8,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "activateReactors",
+      "usePortals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "R",
+        "kind": "reactor",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "T",
+        "kind": "reactor",
+        "position": {
+          "row": 9,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "nw",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "ne",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 6
+        },
+        "direction": "down"
+      },
+      {
+        "id": "sw",
+        "kind": "dormant",
+        "position": {
+          "row": 9,
+          "column": 1
+        },
+        "direction": "down"
+      },
+      {
+        "id": "se",
+        "kind": "dormant",
+        "position": {
+          "row": 9,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 4,
+          "column": 6
+        },
+        "pair": "p",
+        "turns": 1
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 7,
+          "column": 5
+        },
+        "pair": "p",
+        "turns": 0
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 4,
+          "column": 5
+        }
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 4
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 3,
+          "column": 4
+        },
+        "durability": 2
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 7
+        },
+        "direction": "down"
+      }
+    ],
+    "solutionMoves": [
+      "g",
+      "f",
+      "d",
+      "d",
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Opposing sleeper trains use a portal crossing after the central station clears.",
+    "maxMoves": 12
+  },
+  {
+    "id": 58,
+    "chapter": 6,
+    "name": "Magnetic Orchestra",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 10,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "activateReactors"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "R",
+        "kind": "reactor",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "T",
+        "kind": "reactor",
+        "position": {
+          "row": 9,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "nw",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "ne",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "sw",
+        "kind": "dormant",
+        "position": {
+          "row": 9,
+          "column": 1
+        },
+        "direction": "down"
+      },
+      {
+        "id": "se",
+        "kind": "dormant",
+        "position": {
+          "row": 9,
+          "column": 6
+        },
+        "direction": "down"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "direction": "up",
+        "polarity": "positive"
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 4,
+          "column": 7
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 10,
+          "column": 7
+        },
+        "links": [
+          "M"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 4
+        },
+        "direction": "down"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 8,
+          "column": 4
+        }
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 5,
+          "column": 6
+        },
+        "durability": 2
+      },
+      {
+        "id": "exit",
+        "kind": "redirector",
+        "position": {
+          "row": 3,
+          "column": 6
+        },
+        "turns": 1
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "h",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "turns": -1
+      },
+      {
+        "id": "wall-0-3",
+        "kind": "wall",
+        "position": {
+          "row": 0,
+          "column": 3
+        }
+      }
+    ],
+    "solutionMoves": [
+      "h",
+      "g",
+      "f",
+      "f",
+      "f",
+      "d",
+      "c",
+      "F",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A magnetic conductor releases the two-reactor orchestra only after its audience lanes clear.",
+    "maxMoves": 14
+  },
+  {
+    "id": 59,
+    "chapter": 6,
+    "name": "Supernova",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 10,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "activateReactors",
+      "usePortals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "R",
+        "kind": "reactor",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "T",
+        "kind": "reactor",
+        "position": {
+          "row": 9,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "nw",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "ne",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "sw",
+        "kind": "dormant",
+        "position": {
+          "row": 9,
+          "column": 1
+        },
+        "direction": "down"
+      },
+      {
+        "id": "se",
+        "kind": "dormant",
+        "position": {
+          "row": 9,
+          "column": 6
+        },
+        "direction": "down"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 4,
+          "column": 6
+        }
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 10,
+          "column": 2
+        },
+        "direction": "up"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 6
+        },
+        "direction": "up",
+        "polarity": "positive"
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 7,
+          "column": 1
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 10,
+          "column": 7
+        },
+        "links": [
+          "M"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 6,
+          "column": 5
+        },
+        "durability": 2
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "h",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "turns": -1
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 4,
+          "column": 5
+        },
+        "pair": "p",
+        "turns": -1
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 8,
+          "column": 7
+        },
+        "pair": "p",
+        "turns": 0
+      },
+      {
+        "id": "wall-0-0",
+        "kind": "wall",
+        "position": {
+          "row": 0,
+          "column": 0
+        }
+      }
+    ],
+    "solutionMoves": [
+      "h",
+      "g",
+      "f",
+      "f",
+      "f",
+      "F",
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Shift the key lane sideways, route through a portal, then release the starburst.",
+    "maxMoves": 14
+  },
+  {
+    "id": 60,
+    "chapter": 6,
+    "name": "Full Spectrum",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 10,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "activateReactors",
+      "usePortals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "R",
+        "kind": "reactor",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "T",
+        "kind": "reactor",
+        "position": {
+          "row": 9,
+          "column": 3
+        },
+        "directions": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "id": "E",
+        "kind": "reactor",
+        "position": {
+          "row": 6,
+          "column": 6
+        },
+        "directions": [
+          "up",
+          "down"
+        ]
+      },
+      {
+        "id": "nw",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "ne",
+        "kind": "dormant",
+        "position": {
+          "row": 2,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "sw",
+        "kind": "dormant",
+        "position": {
+          "row": 9,
+          "column": 1
+        },
+        "direction": "down"
+      },
+      {
+        "id": "se",
+        "kind": "dormant",
+        "position": {
+          "row": 9,
+          "column": 5
+        },
+        "direction": "down"
+      },
+      {
+        "id": "east-up",
+        "kind": "dormant",
+        "position": {
+          "row": 3,
+          "column": 6
+        },
+        "direction": "right"
+      },
+      {
+        "id": "east-down",
+        "kind": "dormant",
+        "position": {
+          "row": 8,
+          "column": 6
+        },
+        "direction": "right"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "direction": "up",
+        "polarity": "positive"
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 4,
+          "column": 7
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 10,
+          "column": 7
+        },
+        "links": [
+          "M"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 4
+        },
+        "direction": "down"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 8,
+          "column": 4
+        }
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 5,
+          "column": 5
+        },
+        "durability": 2
+      },
+      {
+        "id": "exit",
+        "kind": "redirector",
+        "position": {
+          "row": 3,
+          "column": 5
+        },
+        "turns": -1
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 5
+        },
+        "direction": "left"
+      },
+      {
+        "id": "h",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "turns": -1
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 3,
+          "column": 7
+        },
+        "pair": "p",
+        "turns": 0
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 8,
+          "column": 7
+        },
+        "pair": "p",
+        "turns": 0
+      },
+      {
+        "id": "wall-0-3",
+        "kind": "wall",
+        "position": {
+          "row": 0,
+          "column": 3
+        }
+      }
+    ],
+    "solutionMoves": [
+      "h",
+      "g",
+      "f",
+      "f",
+      "f",
+      "d",
+      "c",
+      "F",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Pack milestone: clear the conductor, align the field and ignite three reactors plus six sleepers in one final move.",
+    "maxMoves": 14
+  }
+]

@@ -1,0 +1,957 @@
+[
+  {
+    "id": 11,
+    "chapter": 2,
+    "name": "Bend the Light",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 1,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "turn",
+        "kind": "redirector",
+        "position": {
+          "row": 5,
+          "column": 4
+        },
+        "turns": -1
+      },
+      {
+        "id": "wall-5-5",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 5
+        }
+      },
+      {
+        "id": "wall-6-5",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 5
+        }
+      }
+    ],
+    "solutionMoves": [
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "One clean redirect introduction.",
+    "tutorialMessage": "Corner tiles bend your path."
+  },
+  {
+    "id": 12,
+    "chapter": 2,
+    "name": "Double Take",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 2,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "turn-a",
+        "kind": "redirector",
+        "position": {
+          "row": 4,
+          "column": 1
+        },
+        "turns": 1
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 4
+        },
+        "direction": "up"
+      },
+      {
+        "id": "turn-b",
+        "kind": "redirector",
+        "position": {
+          "row": 1,
+          "column": 4
+        },
+        "turns": 1
+      },
+      {
+        "id": "wall-3-1",
+        "kind": "wall",
+        "position": {
+          "row": 3,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-0-4",
+        "kind": "wall",
+        "position": {
+          "row": 0,
+          "column": 4
+        }
+      }
+    ],
+    "solutionMoves": [
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "The second elbow must clear before the first can flow."
+  },
+  {
+    "id": 13,
+    "chapter": 2,
+    "name": "Crack the Code",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 2,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "crystal",
+        "kind": "crystal",
+        "position": {
+          "row": 5,
+          "column": 3
+        },
+        "durability": 1
+      },
+      {
+        "id": "turn",
+        "kind": "redirector",
+        "position": {
+          "row": 5,
+          "column": 4
+        },
+        "turns": -1
+      },
+      {
+        "id": "wall-5-5",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 5
+        }
+      },
+      {
+        "id": "wall-6-3",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      }
+    ],
+    "solutionMoves": [
+      "a",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "One hit breaks the crystal; the second launch claims the path.",
+    "tutorialMessage": "Crack the crystal, then launch again."
+  },
+  {
+    "id": 14,
+    "chapter": 2,
+    "name": "Spin Cycle",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 3,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "spin",
+        "kind": "rotator",
+        "position": {
+          "row": 7,
+          "column": 4
+        },
+        "turns": -1
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 4
+        },
+        "direction": "right"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-7-5",
+        "kind": "wall",
+        "position": {
+          "row": 7,
+          "column": 5
+        }
+      },
+      {
+        "id": "wall-6-5",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 5
+        }
+      },
+      {
+        "id": "wall-5-5",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 5
+        }
+      }
+    ],
+    "solutionMoves": [
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A rotator follows two crossing blockers.",
+    "tutorialMessage": "Round tiles spin your direction."
+  },
+  {
+    "id": 15,
+    "chapter": 2,
+    "name": "Untie the Knot",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 3,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "upper",
+        "kind": "redirector",
+        "position": {
+          "row": 4,
+          "column": 1
+        },
+        "turns": 1
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "direction": "down"
+      },
+      {
+        "id": "lower",
+        "kind": "redirector",
+        "position": {
+          "row": 7,
+          "column": 3
+        },
+        "turns": 1
+      },
+      {
+        "id": "wall-3-1",
+        "kind": "wall",
+        "position": {
+          "row": 3,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-8-3",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 3
+        }
+      }
+    ],
+    "solutionMoves": [
+      "a",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A setup move vacates the exit of the other piece. Partial movement is the solution."
+  },
+  {
+    "id": 16,
+    "chapter": 2,
+    "name": "Two-Sided Glass",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 4,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 2
+        },
+        "direction": "up"
+      },
+      {
+        "id": "elbow",
+        "kind": "redirector",
+        "position": {
+          "row": 5,
+          "column": 2
+        },
+        "turns": 1
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 5,
+          "column": 5
+        },
+        "durability": 2
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 5
+        },
+        "direction": "down"
+      },
+      {
+        "id": "exit",
+        "kind": "redirector",
+        "position": {
+          "row": 5,
+          "column": 6
+        },
+        "turns": -1
+      },
+      {
+        "id": "wall-4-2",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-6-6",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 6
+        }
+      }
+    ],
+    "solutionMoves": [
+      "a",
+      "b",
+      "a",
+      "b"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Two approaches share a reinforced crystal before their paths diverge."
+  },
+  {
+    "id": 17,
+    "chapter": 2,
+    "name": "Return Ticket",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 4,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 3
+        },
+        "direction": "up"
+      },
+      {
+        "id": "return",
+        "kind": "rotator",
+        "position": {
+          "row": 5,
+          "column": 5
+        },
+        "turns": 2
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "side",
+        "kind": "redirector",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "turns": -1
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-5-6",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 6
+        }
+      },
+      {
+        "id": "wall-6-6",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 6
+        }
+      },
+      {
+        "id": "wall-7-6",
+        "kind": "wall",
+        "position": {
+          "row": 7,
+          "column": 6
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "b",
+      "a",
+      "c"
+    ],
+    "contentRevision": 2,
+    "designIntent": "The turnaround travels twice through a lane; clear its crossing before launching."
+  },
+  {
+    "id": 18,
+    "chapter": 2,
+    "name": "Diamond Cut",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 7,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "a-turn",
+        "kind": "redirector",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "turns": 1
+      },
+      {
+        "id": "glass-a",
+        "kind": "crystal",
+        "position": {
+          "row": 5,
+          "column": 3
+        },
+        "durability": 1
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 3
+        },
+        "direction": "down"
+      },
+      {
+        "id": "b-turn",
+        "kind": "redirector",
+        "position": {
+          "row": 7,
+          "column": 3
+        },
+        "turns": -1
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass-b",
+        "kind": "crystal",
+        "position": {
+          "row": 3,
+          "column": 5
+        },
+        "durability": 2
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 2
+        },
+        "direction": "right"
+      },
+      {
+        "id": "d-turn",
+        "kind": "redirector",
+        "position": {
+          "row": 3,
+          "column": 6
+        },
+        "turns": -1
+      },
+      {
+        "id": "wall-4-1",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-8-3",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 3
+        }
+      },
+      {
+        "id": "wall-8-6",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 6
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "c",
+      "b",
+      "a",
+      "d",
+      "b"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Cross-fire breaks two crystals before an inner and outer route can open.",
+    "maxMoves": 11
+  },
+  {
+    "id": 19,
+    "chapter": 2,
+    "name": "Long Way Home",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 4,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r1",
+        "kind": "redirector",
+        "position": {
+          "row": 2,
+          "column": 1
+        },
+        "turns": 1
+      },
+      {
+        "id": "r2",
+        "kind": "redirector",
+        "position": {
+          "row": 2,
+          "column": 5
+        },
+        "turns": 1
+      },
+      {
+        "id": "r3",
+        "kind": "redirector",
+        "position": {
+          "row": 7,
+          "column": 5
+        },
+        "turns": 1
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "direction": "down"
+      },
+      {
+        "id": "b-turn",
+        "kind": "redirector",
+        "position": {
+          "row": 6,
+          "column": 3
+        },
+        "turns": -1
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "wall-0-1",
+        "kind": "wall",
+        "position": {
+          "row": 0,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-3-4",
+        "kind": "wall",
+        "position": {
+          "row": 3,
+          "column": 4
+        }
+      },
+      {
+        "id": "wall-8-5",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 5
+        }
+      },
+      {
+        "id": "wall-4-4",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 4
+        }
+      },
+      {
+        "id": "wall-5-4",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 4
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A three-turn perimeter path crosses a shorter inner route."
+  },
+  {
+    "id": 20,
+    "chapter": 2,
+    "name": "Vector Vault",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 9,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r1",
+        "kind": "redirector",
+        "position": {
+          "row": 3,
+          "column": 1
+        },
+        "turns": 1
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 4
+        },
+        "direction": "down"
+      },
+      {
+        "id": "r2",
+        "kind": "redirector",
+        "position": {
+          "row": 7,
+          "column": 4
+        },
+        "turns": 1
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r3",
+        "kind": "redirector",
+        "position": {
+          "row": 5,
+          "column": 2
+        },
+        "turns": 1
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 5,
+          "column": 5
+        },
+        "durability": 2
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 5
+        },
+        "direction": "down"
+      },
+      {
+        "id": "r4",
+        "kind": "redirector",
+        "position": {
+          "row": 8,
+          "column": 5
+        },
+        "turns": -1
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "h",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-1-1",
+        "kind": "wall",
+        "position": {
+          "row": 1,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-8-4",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 4
+        }
+      },
+      {
+        "id": "wall-4-2",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-6-0",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 0
+        }
+      }
+    ],
+    "solutionMoves": [
+      "h",
+      "g",
+      "f",
+      "d",
+      "d",
+      "c",
+      "b",
+      "a",
+      "d"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Chapter test: open the outer exit before unthreading a bent inner circuit.",
+    "maxMoves": 13
+  }
+]

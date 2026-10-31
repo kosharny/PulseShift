@@ -1,0 +1,1284 @@
+[
+  {
+    "id": 41,
+    "chapter": 5,
+    "name": "A Little Pull",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 2,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 2
+        },
+        "direction": "up",
+        "polarity": "positive"
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 5,
+          "column": 5
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 7,
+          "column": 4
+        },
+        "links": [
+          "M"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "wall-4-2",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 2
+        }
+      }
+    ],
+    "solutionMoves": [
+      "F",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "One polarity flip pulls the pulse out from behind its wall.",
+    "tutorialMessage": "Tap \u00b1 to flip the magnet. Opposites attract; matching signs repel."
+  },
+  {
+    "id": 42,
+    "chapter": 5,
+    "name": "Push and Pull",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 3,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 2
+        },
+        "direction": "up",
+        "polarity": "positive"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 5
+        },
+        "direction": "down",
+        "polarity": "negative"
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 6,
+          "column": 6
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 8,
+          "column": 5
+        },
+        "links": [
+          "M"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "wall-5-2",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-7-5",
+        "kind": "wall",
+        "position": {
+          "row": 7,
+          "column": 5
+        }
+      }
+    ],
+    "solutionMoves": [
+      "F",
+      "a",
+      "b"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Opposite signs move in opposite directions together."
+  },
+  {
+    "id": 43,
+    "chapter": 5,
+    "name": "Wait for Space",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 5,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 2
+        },
+        "direction": "up",
+        "polarity": "positive"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 3
+        },
+        "direction": "up"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 6,
+          "column": 6
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 8,
+          "column": 5
+        },
+        "links": [
+          "M"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "wall-5-2",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-7-2",
+        "kind": "wall",
+        "position": {
+          "row": 7,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-8-2",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 2
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "b",
+      "F",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Make room for the magnetic destination before flipping. Occupied cells reject the shift.",
+    "maxMoves": 8
+  },
+  {
+    "id": 44,
+    "chapter": 5,
+    "name": "Vertical Thinking",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 5,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 3
+        },
+        "direction": "right",
+        "polarity": "positive"
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "axis": "vertical",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 9,
+          "column": 6
+        },
+        "links": [
+          "M"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 2,
+          "column": 5
+        }
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 8,
+          "column": 2
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 1,
+          "column": 5
+        },
+        "durability": 1
+      },
+      {
+        "id": "wall-6-4",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 4
+        }
+      }
+    ],
+    "solutionMoves": [
+      "c",
+      "b",
+      "b",
+      "F",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Vertical attraction lifts the pulse into a gate-controlled exit."
+  },
+  {
+    "id": 45,
+    "chapter": 5,
+    "name": "Double Lock",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 7,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "direction": "up",
+        "polarity": "positive"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 3
+        },
+        "direction": "up"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 3,
+          "column": 6
+        }
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 9,
+          "column": 4
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 7,
+          "column": 6
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 10,
+          "column": 7
+        },
+        "links": [
+          "M"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 3
+        },
+        "direction": "down"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 5,
+          "column": 3
+        },
+        "turns": -1
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-6-2",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-8-2",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-6-4",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 4
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "g",
+      "f",
+      "b",
+      "F",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A gate, crossing and destination blocker must clear before attraction is useful.",
+    "maxMoves": 11
+  },
+  {
+    "id": 46,
+    "chapter": 5,
+    "name": "Repulsion Route",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 6,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "usePortals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 3
+        },
+        "direction": "up",
+        "polarity": "negative"
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 6,
+          "column": 6
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 8,
+          "column": 5
+        },
+        "links": [
+          "M"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 3,
+          "column": 2
+        },
+        "pair": "p",
+        "turns": 1
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 2,
+          "column": 4
+        },
+        "pair": "p",
+        "turns": 0
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 5
+        },
+        "direction": "down"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 7,
+          "column": 5
+        },
+        "turns": 1
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 0
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 4,
+          "column": 0
+        },
+        "durability": 2
+      },
+      {
+        "id": "wall-5-3",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 3
+        }
+      },
+      {
+        "id": "wall-8-4",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 4
+        }
+      }
+    ],
+    "solutionMoves": [
+      "c",
+      "c",
+      "c",
+      "b",
+      "F",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Repel into a portal lane after unblocking its far end.",
+    "maxMoves": 9
+  },
+  {
+    "id": 47,
+    "chapter": 5,
+    "name": "Magnetic Key",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 8,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 2
+        },
+        "direction": "up",
+        "polarity": "positive"
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 6,
+          "column": 6
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 9,
+          "column": 6
+        },
+        "links": [
+          "M"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 3,
+          "column": 3
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 7,
+          "column": 5
+        }
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 5
+        },
+        "direction": "left"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 1,
+          "column": 1
+        },
+        "durability": 2
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 7
+        },
+        "direction": "left"
+      },
+      {
+        "id": "wall-5-2",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 2
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "d",
+      "d",
+      "c",
+      "F",
+      "a",
+      "b",
+      "f"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A shifted pulse becomes the key to a second, perpendicular route."
+  },
+  {
+    "id": 48,
+    "chapter": 5,
+    "name": "Opposite Ends",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 7,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "direction": "up",
+        "polarity": "positive"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 5
+        },
+        "direction": "down",
+        "polarity": "negative"
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 7,
+          "column": 7
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "N",
+        "kind": "magnet",
+        "position": {
+          "row": 3,
+          "column": 1
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 9,
+          "column": 4
+        },
+        "links": [
+          "M",
+          "N"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 3
+        },
+        "direction": "up"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 4,
+          "column": 3
+        }
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 1,
+          "column": 2
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 0
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-6-2",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-4-5",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 5
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "g",
+      "f",
+      "F",
+      "a",
+      "b"
+    ],
+    "contentRevision": 2,
+    "designIntent": "One flip controls two fields. Their landing spaces belong to different dependency chains.",
+    "maxMoves": 11
+  },
+  {
+    "id": 49,
+    "chapter": 5,
+    "name": "Move the Shield",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 8,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "sleep",
+        "kind": "dormant",
+        "position": {
+          "row": 1,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 3
+        },
+        "direction": "up",
+        "polarity": "positive"
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 3,
+          "column": 7
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 9,
+          "column": 6
+        },
+        "links": [
+          "M"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 4
+        },
+        "direction": "down"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 8,
+          "column": 4
+        },
+        "turns": 1
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 4,
+          "column": 1
+        },
+        "durability": 2
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 6
+        },
+        "direction": "down"
+      },
+      {
+        "id": "r2",
+        "kind": "redirector",
+        "position": {
+          "row": 7,
+          "column": 6
+        },
+        "turns": 1
+      },
+      {
+        "id": "wall-0-3",
+        "kind": "wall",
+        "position": {
+          "row": 0,
+          "column": 3
+        }
+      },
+      {
+        "id": "wall-9-4",
+        "kind": "wall",
+        "position": {
+          "row": 9,
+          "column": 4
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "d",
+      "d",
+      "c",
+      "F",
+      "b",
+      "f",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Shift a wall-bound shield off the core beam, then fire the sleeping payoff.",
+    "maxMoves": 12
+  },
+  {
+    "id": 50,
+    "chapter": 5,
+    "name": "Field of Dreams",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 9,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals",
+      "usePortals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "sleep",
+        "kind": "dormant",
+        "position": {
+          "row": 1,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 3
+        },
+        "direction": "up",
+        "polarity": "positive"
+      },
+      {
+        "id": "M",
+        "kind": "magnet",
+        "position": {
+          "row": 3,
+          "column": 7
+        },
+        "axis": "horizontal",
+        "polarity": "positive",
+        "range": 8
+      },
+      {
+        "id": "F",
+        "kind": "polaritySwitch",
+        "position": {
+          "row": 10,
+          "column": 6
+        },
+        "links": [
+          "M"
+        ],
+        "polarity": "positive"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 4
+        },
+        "direction": "down"
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 7,
+          "column": 4
+        }
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 9,
+          "column": 3
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 5,
+          "column": 6
+        },
+        "durability": 2
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 6
+        },
+        "direction": "down"
+      },
+      {
+        "id": "P",
+        "kind": "portal",
+        "position": {
+          "row": 8,
+          "column": 6
+        },
+        "pair": "p",
+        "turns": 1
+      },
+      {
+        "id": "Q",
+        "kind": "portal",
+        "position": {
+          "row": 8,
+          "column": 2
+        },
+        "pair": "p",
+        "turns": 0
+      },
+      {
+        "id": "wall-0-3",
+        "kind": "wall",
+        "position": {
+          "row": 0,
+          "column": 3
+        }
+      },
+      {
+        "id": "wall-4-1",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-5-1",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 1
+        }
+      }
+    ],
+    "solutionMoves": [
+      "f",
+      "g",
+      "g",
+      "g",
+      "d",
+      "c",
+      "F",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A portal exit, reinforced crystal, gate and magnetic shield form one connected puzzle.",
+    "maxMoves": 13
+  }
+]

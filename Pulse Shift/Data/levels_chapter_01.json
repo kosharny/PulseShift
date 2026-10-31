@@ -1,0 +1,714 @@
+[
+  {
+    "id": 1,
+    "chapter": 1,
+    "name": "First Spark",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 1,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 2
+        },
+        "direction": "up"
+      }
+    ],
+    "solutionMoves": [
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "One inviting launch in the center.",
+    "tutorialMessage": "Tap the glowing pulse. Let it fly!"
+  },
+  {
+    "id": 2,
+    "chapter": 1,
+    "name": "Go Your Own Way",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 2,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 1
+        },
+        "direction": "left"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 4
+        },
+        "direction": "up"
+      }
+    ],
+    "solutionMoves": [
+      "a",
+      "b"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Two colors, two directions, no ordering pressure.",
+    "tutorialMessage": "Every arrow shows its way out."
+  },
+  {
+    "id": 3,
+    "chapter": 1,
+    "name": "You First",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 3,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 4
+        },
+        "direction": "up"
+      }
+    ],
+    "solutionMoves": [
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Three-piece elbow dependency, not a straight row.",
+    "tutorialMessage": "Clear a path for the next pulse."
+  },
+  {
+    "id": 4,
+    "chapter": 1,
+    "name": "Side Step",
+    "columns": 5,
+    "rows": 8,
+    "parMoves": 3,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "direction": "down"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 3
+        },
+        "direction": "left"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-3-4",
+        "kind": "wall",
+        "position": {
+          "row": 3,
+          "column": 4
+        }
+      },
+      {
+        "id": "wall-4-4",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 4
+        }
+      }
+    ],
+    "solutionMoves": [
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Read the same rule from the opposite edge."
+  },
+  {
+    "id": 5,
+    "chapter": 1,
+    "name": "Tiny Traffic",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 4,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 4
+        },
+        "direction": "up"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 4
+        },
+        "direction": "left"
+      },
+      {
+        "id": "wall-4-2",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-4-3",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 3
+        }
+      },
+      {
+        "id": "wall-5-2",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 2
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Four-link zigzag, with a quiet central island."
+  },
+  {
+    "id": 6,
+    "chapter": 1,
+    "name": "Meet in the Middle",
+    "columns": 6,
+    "rows": 8,
+    "parMoves": 4,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 4
+        },
+        "direction": "up"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 4
+        },
+        "direction": "left"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 2
+        },
+        "direction": "up"
+      }
+    ],
+    "solutionMoves": [
+      "c",
+      "b",
+      "a",
+      "d"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A crossing lane waits for the horizontal pair."
+  },
+  {
+    "id": 7,
+    "chapter": 1,
+    "name": "Around the Corner",
+    "columns": 5,
+    "rows": 8,
+    "parMoves": 4,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 1
+        },
+        "direction": "down"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 3
+        },
+        "direction": "up"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "wall-3-2",
+        "kind": "wall",
+        "position": {
+          "row": 3,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-4-2",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 2
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Compact horseshoe with outward exits."
+  },
+  {
+    "id": 8,
+    "chapter": 1,
+    "name": "Four Corners",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 4,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 4
+        },
+        "direction": "down"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 4
+        },
+        "direction": "left"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 1
+        },
+        "direction": "up"
+      }
+    ],
+    "solutionMoves": [
+      "c",
+      "b",
+      "a",
+      "d"
+    ],
+    "contentRevision": 2,
+    "designIntent": "The apparent loop has one opening. End of basic onboarding."
+  },
+  {
+    "id": 9,
+    "chapter": 1,
+    "name": "Crossroads",
+    "columns": 7,
+    "rows": 9,
+    "parMoves": 7,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 5
+        },
+        "direction": "left"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 3
+        },
+        "direction": "up"
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "h",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-4-0",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 0
+        }
+      },
+      {
+        "id": "wall-4-4",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 4
+        }
+      },
+      {
+        "id": "wall-5-0",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 0
+        }
+      },
+      {
+        "id": "wall-5-4",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 4
+        }
+      },
+      {
+        "id": "wall-8-0",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 0
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "b",
+      "a",
+      "f",
+      "g",
+      "h"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Two dependent crossings and an edge follower create a real first-move read."
+  },
+  {
+    "id": 10,
+    "chapter": 1,
+    "name": "Woven Signal",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 9,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 5
+        },
+        "direction": "left"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 3
+        },
+        "direction": "up"
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "h",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "i",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "j",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "wall-5-2",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-5-4",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 4
+        }
+      },
+      {
+        "id": "wall-6-2",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-6-4",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 4
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "b",
+      "a",
+      "j",
+      "f",
+      "g",
+      "h",
+      "i"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Nine pieces interweave around a central island; early partial moves cost stars.",
+    "maxMoves": 12
+  }
+]

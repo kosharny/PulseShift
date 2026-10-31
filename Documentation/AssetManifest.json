@@ -1,0 +1,450 @@
+[
+  {
+    "group": "Branding",
+    "name": "branding_logo",
+    "purpose": "Original wordmark, white and gradient variants",
+    "sourcePixels": "1024\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Branding",
+    "name": "branding_symbol",
+    "purpose": "Rounded pulse monogram, no text",
+    "sourcePixels": "512\u00d7512",
+    "status": "art-slot"
+  },
+  {
+    "group": "Branding",
+    "name": "branding_launch",
+    "purpose": "Centered launch mark",
+    "sourcePixels": "512\u00d7512",
+    "status": "art-slot"
+  },
+  {
+    "group": "UI",
+    "name": "ui_cta",
+    "purpose": "Glossy aqua primary CTA, keep center clear for live text",
+    "sourcePixels": "720\u00d7160",
+    "status": "art-slot"
+  },
+  {
+    "group": "UI",
+    "name": "ui_secondary",
+    "purpose": "Blue raised secondary button",
+    "sourcePixels": "720\u00d7160",
+    "status": "art-slot"
+  },
+  {
+    "group": "UI",
+    "name": "ui_action_pill",
+    "purpose": "Dark and gold pill surfaces",
+    "sourcePixels": "400\u00d7144",
+    "status": "art-slot"
+  },
+  {
+    "group": "UI",
+    "name": "ui_selected_tab",
+    "purpose": "Filled cyan selected capsule",
+    "sourcePixels": "240\u00d7180",
+    "status": "art-slot"
+  },
+  {
+    "group": "Tabs",
+    "name": "tab_home",
+    "purpose": "Home icon: solid silhouette, active/inactive tintable",
+    "sourcePixels": "144\u00d7144",
+    "status": "art-slot"
+  },
+  {
+    "group": "Tabs",
+    "name": "tab_levels",
+    "purpose": "Levels icon: solid silhouette, active/inactive tintable",
+    "sourcePixels": "144\u00d7144",
+    "status": "art-slot"
+  },
+  {
+    "group": "Tabs",
+    "name": "tab_daily",
+    "purpose": "Daily icon: solid silhouette, active/inactive tintable",
+    "sourcePixels": "144\u00d7144",
+    "status": "art-slot"
+  },
+  {
+    "group": "Tabs",
+    "name": "tab_collection",
+    "purpose": "Collection icon: solid silhouette, active/inactive tintable",
+    "sourcePixels": "144\u00d7144",
+    "status": "art-slot"
+  },
+  {
+    "group": "Home",
+    "name": "home_hero_board",
+    "purpose": "Original playful diagonal board micro-illustration",
+    "sourcePixels": "800\u00d7800",
+    "status": "art-slot"
+  },
+  {
+    "group": "Home",
+    "name": "home_daily",
+    "purpose": "Daily event sun/pulse emblem",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Home",
+    "name": "home_weekly",
+    "purpose": "Seven-node circuit emblem",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Home",
+    "name": "home_stats",
+    "purpose": "Signal statistics emblem",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Home",
+    "name": "home_collection",
+    "purpose": "Collectible palette emblem",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Home",
+    "name": "background_energy",
+    "purpose": "Subtle midnight energy motifs; safe center and quiet text zones",
+    "sourcePixels": "1290\u00d72796",
+    "status": "art-slot"
+  },
+  {
+    "group": "Home",
+    "name": "chapter_01",
+    "purpose": "First Pulse chapter emblem",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Home",
+    "name": "chapter_02",
+    "purpose": "Vector chapter emblem",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Home",
+    "name": "chapter_03",
+    "purpose": "Circuit chapter emblem",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Home",
+    "name": "chapter_04",
+    "purpose": "Phase chapter emblem",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Home",
+    "name": "chapter_05",
+    "purpose": "Polarity chapter emblem",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Home",
+    "name": "chapter_06",
+    "purpose": "Overload chapter emblem",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Gameplay",
+    "name": "gameplay_board_frame",
+    "purpose": "Transparent center; dimensional blue outer arena frame",
+    "sourcePixels": "960\u00d71320",
+    "status": "art-slot"
+  },
+  {
+    "group": "Gameplay",
+    "name": "gameplay_cell",
+    "purpose": "Quiet rounded cell inset, no semantic marks",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Pieces",
+    "name": "piece_shard",
+    "purpose": "Neutral glossy shard base, no arrow; transparent outer margin",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Pieces",
+    "name": "piece_dormant",
+    "purpose": "Dormant frosted shard base, no arrow",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Pieces",
+    "name": "piece_arrow_up",
+    "purpose": "White upright arrow; engine rotates this shared glyph",
+    "sourcePixels": "128\u00d7128",
+    "status": "art-slot"
+  },
+  {
+    "group": "Pieces",
+    "name": "piece_arrow_right",
+    "purpose": "Right arrow export for illustration use; gameplay rotates up",
+    "sourcePixels": "128\u00d7128",
+    "status": "art-slot"
+  },
+  {
+    "group": "Pieces",
+    "name": "piece_arrow_down",
+    "purpose": "Down arrow export for illustration use; gameplay rotates up",
+    "sourcePixels": "128\u00d7128",
+    "status": "art-slot"
+  },
+  {
+    "group": "Pieces",
+    "name": "piece_arrow_left",
+    "purpose": "Left arrow export for illustration use; gameplay rotates up",
+    "sourcePixels": "128\u00d7128",
+    "status": "art-slot"
+  },
+  {
+    "group": "Mechanics",
+    "name": "mechanic_wall",
+    "purpose": "Solid wall with diagonal hatching",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Mechanics",
+    "name": "mechanic_redirector",
+    "purpose": "Corner body; turn direction remains live overlay",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Mechanics",
+    "name": "mechanic_rotator",
+    "purpose": "Circular rotator body; turn direction stays live",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Mechanics",
+    "name": "mechanic_controlSwitch",
+    "purpose": "Switch body with used/toggle overlays",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Mechanics",
+    "name": "mechanic_gate",
+    "purpose": "Gate frame; open/closed bars stay independently animated",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Mechanics",
+    "name": "mechanic_portal",
+    "purpose": "Portal rim; pair label remains live",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Mechanics",
+    "name": "mechanic_crystal",
+    "purpose": "Faceted crystal body; one/two-hit overlay",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Mechanics",
+    "name": "mechanic_core",
+    "purpose": "Four-way pulse core",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Mechanics",
+    "name": "mechanic_reactor",
+    "purpose": "Hex reactor; directional arms remain live",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Mechanics",
+    "name": "mechanic_magnet",
+    "purpose": "Magnet body; polarity sign remains live",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Mechanics",
+    "name": "mechanic_polaritySwitch",
+    "purpose": "Polarity toggle body; sign remains live",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Mechanics",
+    "name": "mechanic_magnet_positive",
+    "purpose": "Positive magnet reference/variant",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Mechanics",
+    "name": "mechanic_magnet_negative",
+    "purpose": "Negative magnet reference/variant",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "FX",
+    "name": "fx_glow_ring",
+    "purpose": "White soft ring, tinted at runtime",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "FX",
+    "name": "fx_pulse_burst",
+    "purpose": "Radial energy burst",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "FX",
+    "name": "fx_trail",
+    "purpose": "Soft white streak, stretched along movement",
+    "sourcePixels": "256\u00d764",
+    "status": "art-slot"
+  },
+  {
+    "group": "FX",
+    "name": "fx_crystal_shard",
+    "purpose": "Small angular fragment",
+    "sourcePixels": "64\u00d764",
+    "status": "art-slot"
+  },
+  {
+    "group": "FX",
+    "name": "fx_spark",
+    "purpose": "Small white spark, tinted at runtime",
+    "sourcePixels": "64\u00d764",
+    "status": "art-slot"
+  },
+  {
+    "group": "FX",
+    "name": "fx_combo",
+    "purpose": "Quiet capsule behind live combo text",
+    "sourcePixels": "512\u00d7128",
+    "status": "art-slot"
+  },
+  {
+    "group": "FX",
+    "name": "fx_completion",
+    "purpose": "Large transparent celebratory radial burst",
+    "sourcePixels": "1024\u00d71024",
+    "status": "art-slot"
+  },
+  {
+    "group": "Themes",
+    "name": "theme_dark_preview",
+    "purpose": "Dark Matter: cyan/sky/green on midnight; same 3\u00d74 preview-board composition",
+    "sourcePixels": "720\u00d7600",
+    "status": "art-slot"
+  },
+  {
+    "group": "Themes",
+    "name": "theme_neon_preview",
+    "purpose": "Neon Void: violet and magenta on ink; same 3\u00d74 preview-board composition",
+    "sourcePixels": "720\u00d7600",
+    "status": "art-slot"
+  },
+  {
+    "group": "Themes",
+    "name": "theme_prism_preview",
+    "purpose": "Prism Core: pink, aqua and refracted rainbow; same 3\u00d74 preview-board composition",
+    "sourcePixels": "720\u00d7600",
+    "status": "art-slot"
+  },
+  {
+    "group": "Themes",
+    "name": "theme_solar_preview",
+    "purpose": "Solar Flare: gold and coral on warm graphite; same 3\u00d74 preview-board composition",
+    "sourcePixels": "720\u00d7600",
+    "status": "art-slot"
+  },
+  {
+    "group": "Themes",
+    "name": "theme_frost_preview",
+    "purpose": "Frost Signal: icy aqua and pale sky on cold navy; same 3\u00d74 preview-board composition",
+    "sourcePixels": "720\u00d7600",
+    "status": "art-slot"
+  },
+  {
+    "group": "Rewards",
+    "name": "reward_energy",
+    "purpose": "Glossy gold energy bolt",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Rewards",
+    "name": "reward_star",
+    "purpose": "Rounded dimensional gold star",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Rewards",
+    "name": "reward_streak",
+    "purpose": "Coral/magenta flame badge",
+    "sourcePixels": "192\u00d7192",
+    "status": "art-slot"
+  },
+  {
+    "group": "Rewards",
+    "name": "reward_unlock",
+    "purpose": "Gift/unlock emblem",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Completion",
+    "name": "completion_crown",
+    "purpose": "Milestone crown illustration",
+    "sourcePixels": "512\u00d7512",
+    "status": "art-slot"
+  },
+  {
+    "group": "Completion",
+    "name": "completion_retry",
+    "purpose": "Friendly retry/return emblem",
+    "sourcePixels": "256\u00d7256",
+    "status": "art-slot"
+  },
+  {
+    "group": "Completion",
+    "name": "completion_celebration",
+    "purpose": "Star celebration supporting art, no baked text",
+    "sourcePixels": "1024\u00d7800",
+    "status": "art-slot"
+  },
+  {
+    "group": "Settings",
+    "name": "settings_gear",
+    "purpose": "Rounded friendly gear",
+    "sourcePixels": "144\u00d7144",
+    "status": "art-slot"
+  }
+]

@@ -1,0 +1,1250 @@
+[
+  {
+    "id": 21,
+    "chapter": 3,
+    "name": "Open Sesame",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 2,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 6,
+          "column": 2
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 2,
+          "column": 4
+        }
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 4
+        },
+        "direction": "up"
+      }
+    ],
+    "solutionMoves": [
+      "a",
+      "b"
+    ],
+    "contentRevision": 2,
+    "designIntent": "One switch opens another lane.",
+    "tutorialMessage": "Cross the green switch to open its gate."
+  },
+  {
+    "id": 22,
+    "chapter": 3,
+    "name": "Key Exchange",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 4,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "turns": 1
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 5,
+          "column": 3
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 2,
+          "column": 5
+        }
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 5
+        },
+        "direction": "left"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 2
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-4-1",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-6-3",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "a",
+      "b"
+    ],
+    "contentRevision": 2,
+    "designIntent": "The opener itself depends on the exit traffic clearing."
+  },
+  {
+    "id": 23,
+    "chapter": 3,
+    "name": "Heart Beat",
+    "columns": 6,
+    "rows": 9,
+    "parMoves": 2,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 5,
+          "column": 2
+        }
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 1,
+          "column": 2
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 5,
+          "column": 4
+        }
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "durability": 1
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 2
+        },
+        "direction": "up"
+      }
+    ],
+    "solutionMoves": [
+      "a",
+      "b"
+    ],
+    "contentRevision": 2,
+    "designIntent": "The first core simultaneously opens a gate and breaks glass.",
+    "tutorialMessage": "Cores send energy in four directions."
+  },
+  {
+    "id": 24,
+    "chapter": 3,
+    "name": "Before the Boom",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 5,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 5,
+          "column": 3
+        }
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 1,
+          "column": 3
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 5,
+          "column": 5
+        }
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-4-1",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-6-1",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-7-1",
+        "kind": "wall",
+        "position": {
+          "row": 7,
+          "column": 1
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "c",
+      "b",
+      "a",
+      "f"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Do not fire the core while a normal shard shields the switch."
+  },
+  {
+    "id": 25,
+    "chapter": 3,
+    "name": "Glass Keys",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 5,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 4,
+          "column": 1
+        },
+        "turns": 1
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 4,
+          "column": 3
+        }
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 1,
+          "column": 3
+        },
+        "links": [
+          "G",
+          "G2"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 4,
+          "column": 5
+        }
+      },
+      {
+        "id": "G2",
+        "kind": "gate",
+        "position": {
+          "row": 7,
+          "column": 5
+        }
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 6,
+          "column": 3
+        },
+        "durability": 2
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 3
+        },
+        "direction": "up"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 2,
+          "column": 5
+        },
+        "direction": "left"
+      },
+      {
+        "id": "wall-3-1",
+        "kind": "wall",
+        "position": {
+          "row": 3,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-5-0",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 0
+        }
+      }
+    ],
+    "solutionMoves": [
+      "d",
+      "a",
+      "b",
+      "b",
+      "c"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Core and shard share a reinforced crystal; the two gates split the payoff."
+  },
+  {
+    "id": 26,
+    "chapter": 3,
+    "name": "The Wrong First Move",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 4,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 5,
+          "column": 3
+        }
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 1,
+          "column": 3
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 5,
+          "column": 5
+        }
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "G2",
+        "kind": "gate",
+        "position": {
+          "row": 3,
+          "column": 5
+        }
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S2",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 7,
+          "column": 1
+        },
+        "links": [
+          "G2"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-4-1",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-6-1",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-8-1",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 1
+        }
+      }
+    ],
+    "solutionMoves": [
+      "c",
+      "b",
+      "a",
+      "d"
+    ],
+    "contentRevision": 2,
+    "designIntent": "A switch opens the core shield\u2019s escape. Launching the core first strands it.",
+    "maxMoves": 7
+  },
+  {
+    "id": 27,
+    "chapter": 3,
+    "name": "Keep It Open",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 6,
+    "objectives": [
+      "clearShards"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 5,
+          "column": 3
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": false
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 2,
+          "column": 5
+        }
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 3
+        },
+        "direction": "up"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 5
+        },
+        "direction": "up"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 5
+        },
+        "direction": "left"
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 2
+        },
+        "direction": "up"
+      },
+      {
+        "id": "wall-6-0",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 0
+        }
+      },
+      {
+        "id": "wall-6-1",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-6-2",
+        "kind": "wall",
+        "position": {
+          "row": 6,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-4-0",
+        "kind": "wall",
+        "position": {
+          "row": 4,
+          "column": 0
+        }
+      }
+    ],
+    "solutionMoves": [
+      "g",
+      "f",
+      "a",
+      "d",
+      "b",
+      "c"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Two pieces share a toggle. Clear the gate lane between the two crossings.",
+    "tutorialMessage": "Striped switches toggle every time. Timing matters.",
+    "maxMoves": 9
+  },
+  {
+    "id": 28,
+    "chapter": 3,
+    "name": "Three Locks",
+    "columns": 7,
+    "rows": 10,
+    "parMoves": 6,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 5,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 5,
+          "column": 3
+        }
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 1,
+          "column": 3
+        },
+        "links": [
+          "G",
+          "G2",
+          "G3"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 5,
+          "column": 5
+        }
+      },
+      {
+        "id": "G2",
+        "kind": "gate",
+        "position": {
+          "row": 3,
+          "column": 1
+        }
+      },
+      {
+        "id": "G3",
+        "kind": "gate",
+        "position": {
+          "row": 7,
+          "column": 6
+        }
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 3,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "up"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 7,
+          "column": 3
+        },
+        "durability": 1
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 3
+        },
+        "direction": "up"
+      }
+    ],
+    "solutionMoves": [
+      "c",
+      "b",
+      "a",
+      "d",
+      "f",
+      "g"
+    ],
+    "contentRevision": 2,
+    "designIntent": "One carefully prepared core pays off in three separate escape lanes."
+  },
+  {
+    "id": 29,
+    "chapter": 3,
+    "name": "Split Decision",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 7,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "links": [
+          "G"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 6,
+          "column": 6
+        }
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "G2",
+        "kind": "gate",
+        "position": {
+          "row": 4,
+          "column": 6
+        }
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 9,
+          "column": 2
+        },
+        "direction": "up"
+      },
+      {
+        "id": "r",
+        "kind": "redirector",
+        "position": {
+          "row": 7,
+          "column": 2
+        },
+        "turns": 1
+      },
+      {
+        "id": "S2",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 7,
+          "column": 4
+        },
+        "links": [
+          "G2"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 7,
+          "column": 7
+        },
+        "direction": "up"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 6,
+          "column": 1
+        },
+        "durability": 1
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 1
+        },
+        "direction": "down"
+      },
+      {
+        "id": "wall-5-2",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-8-0",
+        "kind": "wall",
+        "position": {
+          "row": 8,
+          "column": 0
+        }
+      }
+    ],
+    "solutionMoves": [
+      "g",
+      "g",
+      "f",
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Two approach lanes, two locks and an initially obstructed launcher.",
+    "maxMoves": 11
+  },
+  {
+    "id": 30,
+    "chapter": 3,
+    "name": "Circuit Symphony",
+    "columns": 8,
+    "rows": 11,
+    "parMoves": 9,
+    "objectives": [
+      "clearShards",
+      "destroyCrystals"
+    ],
+    "entities": [
+      {
+        "id": "a",
+        "kind": "shard",
+        "position": {
+          "row": 6,
+          "column": 0
+        },
+        "direction": "right"
+      },
+      {
+        "id": "X",
+        "kind": "core",
+        "position": {
+          "row": 6,
+          "column": 3
+        }
+      },
+      {
+        "id": "S",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 2,
+          "column": 3
+        },
+        "links": [
+          "G",
+          "G3"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "G",
+        "kind": "gate",
+        "position": {
+          "row": 6,
+          "column": 6
+        }
+      },
+      {
+        "id": "G3",
+        "kind": "gate",
+        "position": {
+          "row": 3,
+          "column": 6
+        }
+      },
+      {
+        "id": "b",
+        "kind": "shard",
+        "position": {
+          "row": 4,
+          "column": 3
+        },
+        "direction": "right"
+      },
+      {
+        "id": "G2",
+        "kind": "gate",
+        "position": {
+          "row": 4,
+          "column": 6
+        }
+      },
+      {
+        "id": "c",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 1
+        },
+        "direction": "right"
+      },
+      {
+        "id": "S2",
+        "kind": "controlSwitch",
+        "position": {
+          "row": 8,
+          "column": 3
+        },
+        "links": [
+          "G2"
+        ],
+        "oneShot": true
+      },
+      {
+        "id": "d",
+        "kind": "shard",
+        "position": {
+          "row": 8,
+          "column": 6
+        },
+        "direction": "up"
+      },
+      {
+        "id": "f",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 6
+        },
+        "direction": "left"
+      },
+      {
+        "id": "g",
+        "kind": "shard",
+        "position": {
+          "row": 1,
+          "column": 2
+        },
+        "direction": "down"
+      },
+      {
+        "id": "r1",
+        "kind": "redirector",
+        "position": {
+          "row": 3,
+          "column": 2
+        },
+        "turns": 1
+      },
+      {
+        "id": "glass",
+        "kind": "crystal",
+        "position": {
+          "row": 3,
+          "column": 5
+        },
+        "durability": 1
+      },
+      {
+        "id": "h",
+        "kind": "shard",
+        "position": {
+          "row": 0,
+          "column": 5
+        },
+        "direction": "down"
+      },
+      {
+        "id": "r2",
+        "kind": "redirector",
+        "position": {
+          "row": 9,
+          "column": 5
+        },
+        "turns": -1
+      },
+      {
+        "id": "wall-5-1",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-5-2",
+        "kind": "wall",
+        "position": {
+          "row": 5,
+          "column": 2
+        }
+      },
+      {
+        "id": "wall-7-1",
+        "kind": "wall",
+        "position": {
+          "row": 7,
+          "column": 1
+        }
+      },
+      {
+        "id": "wall-7-2",
+        "kind": "wall",
+        "position": {
+          "row": 7,
+          "column": 2
+        }
+      }
+    ],
+    "solutionMoves": [
+      "h",
+      "g",
+      "f",
+      "c",
+      "b",
+      "a",
+      "d",
+      "c",
+      "h"
+    ],
+    "contentRevision": 2,
+    "designIntent": "Multi-stage lock sequence around a central pulse highway.",
+    "maxMoves": 13
+  }
+]
