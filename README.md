@@ -16,7 +16,7 @@
 
 ## Demo
 
-**YouTube demo: https://youtube.com/shorts/XfiTljspBsM?feature=share*
+**YouTube demo: [▶ Watch the demo on YouTube](https://www.youtube.com/shorts/XfiTljspBsM)**
 
 ## Overview
 
